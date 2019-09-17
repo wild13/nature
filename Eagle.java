@@ -19,7 +19,7 @@ public class Eagle extends Bird implements Fly {
     public int ascend( int meters ) {
 
         if ( this.flying ) {
-            this.altitude = Math.min( this.altitude + meters, 325 );
+            this.altitude = Math.min( this.altitude + meters, 10000 );
             System.out.printf( "%s flies upward, altitude : %d%n", this.getName(), this.altitude );
         }
         return this.altitude;
