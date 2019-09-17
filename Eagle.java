@@ -48,6 +48,14 @@ public class Eagle extends Bird implements Fly {
     public boolean isFlying() {
         return flying;
     }
+    
+    public void setFlying( boolean flying ) {
+        this.flying = flying;
+    }
+
+    public void setAltitude( int altitude ) {
+        this.altitude = altitude;
+    }
 
     @Override
     public String sing() {
